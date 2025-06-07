@@ -1,0 +1,24 @@
+.skip-card-container{
+    display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     gap: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+.best-skip-size{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.925);
+}
+.need-help-link{
+    color: blue;
+    margin-left: 70%;
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .need-help-link{
+        margin-left: 50%;
+    }  
+}
